@@ -284,7 +284,7 @@
             </objects>
             <point key="canvasLocation" x="-311" y="75"/>
         </scene>
-        <!--History-->
+        <!--Meal-->
         <scene sceneID="L07-HQ-0ut">
             <objects>
                 <viewController id="rZK-QJ-2HR" customClass="HistoryListController" customModule="MamYa" customModuleProvider="target" sceneMemberID="viewController">
@@ -369,7 +369,7 @@
                             <constraint firstItem="NWo-ei-Cr9" firstAttribute="trailing" secondItem="lu8-AQ-hXo" secondAttribute="trailing" constant="45" id="rO2-1e-y7c"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="History" id="zUt-JB-R0U">
+                    <navigationItem key="navigationItem" title="Meal" id="zUt-JB-R0U">
                         <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="9u2-6f-78R">
                             <connections>
                                 <action selector="addBtnPressed:" destination="rZK-QJ-2HR" id="gnV-MM-dk8"/>
@@ -512,11 +512,11 @@
             </objects>
             <point key="canvasLocation" x="615" y="75"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Meal-->
         <scene sceneID="9fR-wn-K0z">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="BfX-G1-NOY" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="history" id="bTk-Et-iia"/>
+                    <tabBarItem key="tabBarItem" title="Meal" image="doc.plaintext.fill" catalog="system" selectedImage="doc.plaintext.fill" id="bTk-Et-iia"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="9Hd-bJ-buu">
                         <rect key="frame" x="0.0" y="44" width="390" height="44"/>
@@ -536,6 +536,7 @@
         <segue reference="i71-Cv-uHz"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="doc.plaintext.fill" catalog="system" width="115" height="128"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

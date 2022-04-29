@@ -55,6 +55,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A9474E61281A747D00E050D3 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A974E7282817D0F800D3EB15 /* Extension.swift */,
+				A9474E5D281A2D1900E050D3 /* Constant.swift */,
+				A9474E5F281A323700E050D3 /* MyCell.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		A974E72A2817F3AE00D3EB15 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +105,7 @@
 		A99F9E882816BE4900A7E46E /* MamYa */ = {
 			isa = PBXGroup;
 			children = (
+				A9474E61281A747D00E050D3 /* Other */,
 				A974E72D281826E900D3EB15 /* Model */,
 				A974E72A2817F3AE00D3EB15 /* Controller */,
 				A99F9E892816BE4900A7E46E /* AppDelegate.swift */,
@@ -103,9 +114,6 @@
 				A99F9E922816BE4A00A7E46E /* Assets.xcassets */,
 				A99F9E942816BE4A00A7E46E /* LaunchScreen.storyboard */,
 				A99F9E972816BE4A00A7E46E /* Info.plist */,
-				A974E7282817D0F800D3EB15 /* Extension.swift */,
-				A9474E5D281A2D1900E050D3 /* Constant.swift */,
-				A9474E5F281A323700E050D3 /* MyCell.swift */,
 			);
 			path = MamYa;
 			sourceTree = "<group>";

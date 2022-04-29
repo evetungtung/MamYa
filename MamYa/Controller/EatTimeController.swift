@@ -8,8 +8,6 @@
 import UIKit
 
 class EatTimeController: UIViewController{
-    
-    
     @IBOutlet weak var menuView: UIView!
     
     let notificationCenter = UNUserNotificationCenter.current()
@@ -23,7 +21,6 @@ class EatTimeController: UIViewController{
     let encoder = JSONEncoder()
 
     @IBOutlet weak var datePicker: UIDatePicker!
-
 
     var viewIdentifier: String!
     
@@ -169,7 +166,7 @@ class EatTimeController: UIViewController{
                     self.defaults.set(encodedUser, forKey: "notifs")
                 }
                 
-                //
+                
                 if(settings.authorizationStatus == .authorized) {
                     let dateComp = Calendar.current.dateComponents([.hour, .minute], from: date)
                     let trigger = UNCalendarNotificationTrigger(dateMatching: dateComp, repeats: true)
